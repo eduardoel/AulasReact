@@ -1,4 +1,4 @@
-export default function CounterDisplay(props) {
+export default function NumberDisplay(props) {
     return(
         <div style={{
             display: "flex",
@@ -12,7 +12,7 @@ export default function CounterDisplay(props) {
             fontSize: "2rem",
             margin: "20px",
         }}>
-            {props.valueCounter}
+            {props.value}
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import CounterDisplay from "../../components/counterDisplay"
+import NumberDisplay from "../../components/NumberDisplay"
 
 export default function counter() {
 
@@ -21,7 +21,7 @@ export default function counter() {
             alignItems: "center"
         }}>
             <h1>Counter</h1>
-            <CounterDisplay valueCounter={valueCounter}/>
+            <NumberDisplay valueCounter={valueCounter}/>
             <div>
                 <button onClick={increment}>+</button>
                 <button onClick={decrement}>-</button>
