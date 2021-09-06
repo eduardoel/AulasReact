@@ -1,7 +1,7 @@
 export default function fragment() {
     return(
         <>
-            <p>Aqui nesse conteudo estamos aprendendo sobre como usar componentes e fragment</p>
+            <p>Here in this content we are learning about how to use components and fragment</p>
         </>
     )
 }

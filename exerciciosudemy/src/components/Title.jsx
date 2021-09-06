@@ -1,7 +1,7 @@
-export default function Titulo() {
+export default function Title() {
     return(
         <>
-            <h1>Titulo</h1>
+            <h1>Title</h1>
             <h2>Sub</h2>
         </>
     )

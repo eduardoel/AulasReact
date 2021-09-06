@@ -1,22 +1,22 @@
-function gerarLista(final) {
-    const lista = []
+function generateList(final) {
+    const list = []
     for(let i = 1; i <= final; i++ ) {
-        lista.push(<span>{i},</span>)
+        list.push(<span>{i},</span>)
     }
-    return lista
+    return list
 }
 
 export default function list() {
     return(
         <div>
             <div>
-                {gerarLista(20)}
+                {generateList(20)}
             </div>
             <div>
-                {gerarLista(60)}
+                {generateList(60)}
             </div>
             <div>
-                {gerarLista(50)}
+                {generateList(50)}
             </div>
         </div>
     )

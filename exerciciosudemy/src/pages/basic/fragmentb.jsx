@@ -1,10 +1,10 @@
-import Fragment from '../basico/fragmenta'
-import Titulo from '../../components/Titulo'
+import Fragment from '../basic/fragmenta'
+import Title from '../../components/Title'
 
 export default function fragment() {
     return (
         <>
-            <Titulo/>
+            <Title/>
             <Fragment/>
         </>
     )
